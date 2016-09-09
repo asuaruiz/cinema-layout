@@ -1,0 +1,77 @@
+.title	{
+	margin: 2em 5em;
+	color: gray;
+}
+.fondo {
+	background-image: url(../img/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 115%;
+	height: 600px;
+	background-position: center;
+}
+.movietitle {
+	font-size: 2em;
+	color: rgb(211, 211, 211);
+	padding: 0.5em;
+}
+.edad {
+	border: 2px #3bcf60 solid;
+	border-radius: 0.2em;
+	padding: 0.2em;
+	margin-bottom: 0.2em;
+	width: 4em;
+	color: #3bcf60;
+	display: inline-block;
+}
+.directores {
+	display: inline-block;
+	margin-left: 10px;
+}
+hr {
+	width: 20em;
+	margin: 0.5em;
+}
+.bgicon	{
+	height: 7em;
+	width: 7em;
+	margin-top: 16em;
+}
+.boton-all {
+	background-color: rgb(211,211,211);
+}
+.boton1	{
+
+}
+.sidebar {
+	margin-right: 0.5em;
+}
+.botons {
+	margin-right: 5em;
+}
+.botonwatch {
+	background-color: rgb(223,182,54);
+	padding: 1em 1.5em;
+	border-radius: 0.3em;
+	margin-right: 3em;
+	margin-bottom: 1em;
+	border: none;
+}
+.botonbook {
+	background-color: rgb(187,123,41);
+	padding: 1em 2.3em;
+	border-radius: 0.3em;
+	border: none;
+}
+.fondobanner {
+	background-color: rgb(223,182,54);
+	height: auto;
+	padding: 1em 3.5em;
+}
+.moviebanner {
+	height: 14em;
+	width: 11em;
+	margin: 2em 0.5em;
+}
+.youtube-player {
+	width: inherit; 
+}
