@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
     <title>Cinema</title>
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">  
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">  
 </head>
 <body>
   <div class="container-fluid">
@@ -19,7 +20,10 @@
   			
   		</div>
   		<div class="col-3">
-  			
+  			<input type="text" name="search" placeholder="Buscar">
+        <div class="lupa">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
   		</div>  		
   	</header>
   	<div class="row fondo">
@@ -30,7 +34,7 @@
   		<div class="col-3"></div>
   		<div class="col-4">
   			<h1 class="movietitle"> BIG HERO 6</h1>
-  			<hr>
+  			<hr class="linea">
   			<br>
         <div class="edad">All Age</div>
   			<br>
@@ -45,8 +49,8 @@
         <p class="parrafo5">The special bond that develops between plus-sized inflatable robot Baymax, and prodigy Hiro Hamada, who team up with a group of friends to form a band of hig tech heros</p>
         <br>
         <div class="botons">
-          <button class="botonwatch">WATCH TRAILER</button>
-          <button class="botonbook">BOOK TICKET</button>
+          <button class="botonwatch"><i class="fa fa-youtube-play" aria-hidden="true"></i> WATCH TRAILER</button>
+          <button class="botonbook"><i class="fa fa-ticket" aria-hidden="true"></i> BOOK TICKET</button>
         </div>
   		</div>
   	</div>
@@ -70,9 +74,80 @@
         <img class="moviebanner" src="img/imagen6.jpg" alt="">
       </div>
     </section>
-    <section class="video">
-     <iframe width="1280" height="300" src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>
+    <section class="row">
+      <div class="col-12">
+         <iframe class="youtube-player" src="https://www.youtube.com/embed/2LqzF5WauAw" frameborder="0" allowfullscreen></iframe>
+      </div>
     </section>
+    <section class="row">
+      <div class="col-6">
+        <div class="section3">
+          <h2 class="bold">Don't be late,</h2>
+          <br>
+          <h1 class="bold2">Book your ticket now!</h1>
+          <br>
+          <h2 class="graysub">Easy, simple & fast.</h2>
+          <br>
+          <button class="botonbook"><i class="fa fa-ticket" aria-hidden="true"></i> BOOK TICKET</button>
+
+          <br>
+          <br>
+          <h5 class="yellowsub">Get Discount up to 10% if you are a member</h5>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="section4">
+          <h1 class="bold">News</h1>
+          <br>
+          <h3 class="subtitle">Lorem Ipsum Dolor Sit Amet</h3>
+          <p class="parrafo-2">Nov 11 2014</p>
+          <p class="parrafo-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec turpis erat, vulputate et posuere maximus, pellentesque et neque.</p>
+          <br>
+          <hr class="linea2">
+          <br>
+          <h3 class="subtitle">Lorem Ipsum Dolor Sit Amet</h3>
+          <p class="parrafo-2">Nov 11 2014</p>
+          <p class="parrafo-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec turpis erat, vulputate et posuere maximus, pellentesque et neque. Phasellus non turpis dui.</p>
+          <br>
+          <hr class="linea2">
+          <br>
+          <h4 class="more">MORE</h4>
+        </div>
+      </div>
+    </section>
+    <section class="row">
+      <div class="marginbanner2">
+        <div class="col-3">
+          <img class="moviebanner2" src="img/imagen6.jpg" alt="">
+        </div>
+        <div class="col-3">
+          <img class="moviebanner2" src="img/imagen7.jpg" alt="">
+        </div>
+        <div class="col-3">
+          <img class="moviebanner2" src="img/imagen8.jpg" alt="">
+        </div>
+        <div class="col-3">
+          <img class="moviebanner2" src="img/imagen9.jpg" alt="">
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container-">
+    <footer class="row">
+      <div class="col-12">
+        <p>Disclaimer</p>
+        <p>this is freebies and not an official website, I have no intention of disclose any movie, brand, news.</p>
+        <p>My goal here is to train or excercise my skill and share this freebies.</p>
+        <br>
+        <br>
+        <p>created by Fikristudio in <strong>Indonesia</strong></p>
+        <br>
+        <br>
+        <p>Drible.com/bagus_firi</p>
+        <p>Be.net/bagusfriki</p>
+        <p>fristudio.com</p>
+      </div>
+    </footer>
   </div>
 </body>
 </html>
